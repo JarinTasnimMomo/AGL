@@ -87,7 +87,7 @@ export default function AuthScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{isLogin ? "Login" : "Create Account"}</Text>
+      <Text style={styles.title}>{isLogin ? "Login" : "Create New Account"}</Text>
       
       {!isLogin && (
         <TextInput

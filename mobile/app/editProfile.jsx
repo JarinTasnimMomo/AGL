@@ -57,7 +57,7 @@ export default function EditProfile() {
   const handleDeleteProfile = async () => {
     Alert.alert(
       "Delete Profile",
-      "Are you sure you want to delete your profile? This action cannot be undone.",
+      "Are you sure you want to delete your profile? This will remove all your data and action cannot be undone.",
       [
         { text: "Cancel", style: "cancel" },
         {
