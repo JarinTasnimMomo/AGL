@@ -94,7 +94,7 @@ export default function Profile() {
     // Request permissions first
     const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
     if (status !== 'granted') {
-      Alert.alert('Permission required', 'We need camera roll permissions to upload images');
+      Alert.alert('Permission required', 'We need camera permissions to upload images');
       return;
     }
 
