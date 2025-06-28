@@ -116,7 +116,7 @@ export default function Profile() {
       await AsyncStorage.multiRemove(['authToken', 'userData']);
       router.replace('/');
     } catch (error) {
-      Alert.alert("Error", "Failed to logout");
+      Alert.alert("Error", "Failed to logout!!!");
     }
   };
 
